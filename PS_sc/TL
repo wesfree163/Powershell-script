@@ -1,0 +1,8 @@
+Add-Type -AssemblyName System.Windows.Forms
+
+While(1) {
+$currentPos = [System.Windows.Forms.Cursor]::Position
+$offsetX = 1
+$offsetY = 1
+[System.Windows.Forms.Cursor]::Position = New-Object System.Drawing.Point($newX, $newY)
+}
