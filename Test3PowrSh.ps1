@@ -1,0 +1,1 @@
+Get-ComputerInfo | Out-File -FilePath .\output.txt
